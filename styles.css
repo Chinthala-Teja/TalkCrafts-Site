@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0b0c10;
+  color: #f1f1f1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  background: #101820;
+  height: 20px;
+}
+
+.site-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  color: #00d8ff;
+  font-weight: 600;
+}
+
+nav a {
+  margin: 0 20px;
+  color: #00d8ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section {
+  padding: 50px 30px;
+  max-width: 1000px;
+  margin: auto;
+  border-top: 2px solid #00d8ff;  /* 🔹 Section top bar */
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.flex-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.text-content {
+  flex: 1 1 60%;
+}
+
+.logo-right img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 🔻 Removed the blue border line from TalkUp */
+.highlight {
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: '➤ ';
+  margin-left: 20px;
+}
+
+a {
+  color: #00ffe0;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #101820;
+  font-size: 14px;
+}
+.insta-icon {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.insta-icon img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.2s ease;
+}
+
+.insta-icon img:hover {
+  transform: scale(1.4);
+}
